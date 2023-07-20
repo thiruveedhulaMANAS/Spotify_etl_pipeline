@@ -25,3 +25,10 @@ This API contains information about music artist, albums and songs - [Spotify AP
 
 ### Project Execution Flow
 Extract Data From Spotify API -> Lambda Trigger (every 1 hour) -> Run Extract Code -> Store Raw Data -> Trigger Tranform Function -> Tranform Data and Load it -> Query using Athena
+
+###Libraries required
+1) spotipy
+2) pandas
+3) boto3
+4) json
+5) datetime
